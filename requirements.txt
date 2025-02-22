@@ -2,4 +2,5 @@ pandas
 matplotlib.pyplot
 seaborn
 plotly.express
-numpy
+!pip install gapminder
+gapminder
