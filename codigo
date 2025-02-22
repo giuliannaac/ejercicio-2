@@ -1,0 +1,4 @@
+penguins = sns.load_dataset('penguins')
+penguins
+px.box(penguins,x="species",y="flipper_length_mm",color="species")
+px.box(penguins,x="sex",y="flipper_length_mm",color="sex")
